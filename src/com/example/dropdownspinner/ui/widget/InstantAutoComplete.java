@@ -1,4 +1,4 @@
-package com.example.dropdownspinner;
+package com.example.dropdownspinner.ui.widget;
 
 import android.content.Context;  
 import android.graphics.Rect;

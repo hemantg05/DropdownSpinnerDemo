@@ -30,4 +30,15 @@ public class DashboardActivity extends Activity {
 		startActivity(intent);
 
 	}
+	
+	public void startAutoCompleteDropdownActivity(View view) {
+
+		Intent intent = new Intent(getApplicationContext(),
+				AutoCompleteDropdownActivity.class);
+		intent.setAction(Intent.ACTION_VIEW);
+		startActivity(intent);
+
+	}
+	
+	
 }

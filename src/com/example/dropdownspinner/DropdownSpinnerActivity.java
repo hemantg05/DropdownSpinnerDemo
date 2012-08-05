@@ -1,5 +1,7 @@
 package com.example.dropdownspinner;
 
+import com.example.dropdownspinner.ui.widget.InstantAutoComplete;
+
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Rect;

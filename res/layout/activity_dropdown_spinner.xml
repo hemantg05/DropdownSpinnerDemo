@@ -26,9 +26,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 
-            <com.example.dropdownspinner.InstantAutoComplete
+            <com.example.dropdownspinner.ui.widget.InstantAutoComplete
                 android:id="@+id/countries_list"
-                android:layout_width="56dp"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:completionThreshold="1"
                 android:drawableRight="@android:drawable/ic_menu_edit" />
