@@ -6,5 +6,6 @@
     <string name="title_activity_dropdown_spinner">DropdownSpinnerActivity</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <string name="title_activity_auto_complete_dropdown">AutoCompleteDropdownActivity</string>
+    <string name="title_activity_fragment_dropdown">FragmentDropdownActivity</string>
 
 </resources>

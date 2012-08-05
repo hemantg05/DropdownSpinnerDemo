@@ -30,6 +30,15 @@
             android:layout_height="wrap_content"
             android:onClick="startAutoCompleteDropdownActivity"
             android:text="Show AutoComplete Dropdown Demo" />
+        
+          <Button
+            android:id="@+id/btn_show_fraagment_dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startFragmentDropdownActivity"
+            android:text="Show Fragment Dropdown Demo" />
+        
+        
     </LinearLayout>
 
 </RelativeLayout>

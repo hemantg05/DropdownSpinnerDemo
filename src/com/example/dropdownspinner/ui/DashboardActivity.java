@@ -41,4 +41,14 @@ public class DashboardActivity extends Activity {
 	}
 	
 	
+	public void startFragmentDropdownActivity(View view) {
+
+		Intent intent = new Intent(getApplicationContext(),
+				FragmentDropdownActivity.class);
+		intent.setAction(Intent.ACTION_VIEW);
+		startActivity(intent);
+
+	}
+	
+	
 }
