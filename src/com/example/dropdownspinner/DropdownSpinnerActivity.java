@@ -5,15 +5,12 @@ import android.content.Context;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout.LayoutParams;
 
@@ -25,8 +22,7 @@ public class DropdownSpinnerActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dropdown_spinner);
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_dropdown_spinner);
+
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_dropdown_item_1line, COUNTRIES);

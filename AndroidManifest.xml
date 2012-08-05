@@ -14,15 +14,21 @@
         <activity
             android:name=".DropdownSpinnerActivity"
             android:label="@string/title_activity_dropdown_spinner" >
+        </activity>
+        <activity
+            android:name="PopupListActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ui.DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="PopupListActivity" android:theme="@android:style/Theme.Dialog"></activity>
-
-            
+        <activity android:name=".ui.PopupWindowDropdownActivity"></activity>
     </application>
 
 </manifest>
